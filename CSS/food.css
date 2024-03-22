@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0 68px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.menu a{
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(255, 43, 133);
+    padding: 0 10px;
+}
+.menu button{    
+       color: white;
+       height: 25px;
+       width: 90px;
+       border-radius: 15px;
+       border: none;
+       font-weight: bold;
+       background: linear-gradient(to right, black, yellow);    
+}
+.menu button:hover{
+    background: linear-gradient(to right, red, rgb(0, 34, 128));
+}
+.banner{
+    /* background: url(../Image/about-foodpanda.jpeg); */
+    background: url("https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda.jpeg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    top: 60px;
+}
+.banner .h {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(14, 14, 14);
+    background-color: rgba(235, 38, 176, 0.5);
+    position: relative;
+    top: 30%;
+    margin: auto;
+    width: 30%;
+}
+.news{
+    position: relative;
+    top: 20px;
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+}
+.news marquee{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 50px;
+}
+.about{
+    padding: 130px 200px;
+    text-align: center;
+}
+.about h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+
+}
+.about p{
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.about button{
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #fd5390;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+.press{
+    background: url(../Image/bckgrd.webp);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.press h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+
+}
+.press p{
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.press button{
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #fd5390;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+.team{
+    background: url(../Image/foodpanda.png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.team h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+
+}
+.team p{
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.team button{
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #fd5390;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+.contact{
+    background: #fd5390;
+    width: 100%;
+    height: 450px;
+    padding: 130px 200px;
+    text-align: center;
+}
+.contact h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+
+}
+.contact p{
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.contact button{
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #fd5390;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+.banner .search input{
+    width: 600px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 10px;
+}
+::placeholder{
+    color: white;
+}
+.banner .search{
+    position: relative;
+    top: 180px;
+}
+
+footer {
+    padding: 80px 1% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: #1a242f;
+    position: absolute;
+    top: 410vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.footer-content h4 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-content p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
